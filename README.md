@@ -10,3 +10,9 @@ This font was inspired by Kirk Miller's Unicode document [L2/20-290](https://www
 This font currently uses the Private Use Area, as these characters are not yet in Unicode. See `codepoints.tsv` and `codepoints.txt`.
 
 ![](https://raw.githubusercontent.com/ctrlcctrlv/FRBCistercian/main/dist/specimen.png)
+
+## Building
+
+Only FontForge is required. There's no SFD file, the source file is `make_font.py`, the entire font is made in FontForge's Python API.
+
+Just run `make`, see `Makefile` for commands.
